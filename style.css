@@ -1,0 +1,41 @@
+body{
+  background-image: url('bg1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#pic{
+  height: 150px;
+  border: 3px solid whitesmoke;
+  display: flex;
+  
+}
+.main{
+  color: white;
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin: 0 auto;
+  
+  
+  
+}
+
+#myname{
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
+#work{
+  display: flex;
+  justify-content: center;
+  padding-left:  20px;
+}
+#address{
+  display: flex;
+  justify-content: center;
+  padding-left:  20px;
+}
